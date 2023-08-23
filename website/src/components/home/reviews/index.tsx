@@ -118,6 +118,48 @@ const reviewList: IReview[] = [
       to: 9000,
     },
   },
+    {
+    review: `I think choosing discordeno is a very good option, we have been working with Discord.js for years, and yes... It's good, but for large scale bots... nothing better than discordeno. Besides its creator is very attentive, and gives us a hand whenever he can.`,
+    bot: {
+      username: 'CactusFire',
+      discriminator: '3759',
+      avatar:
+        'https://cdn.discordapp.com/avatars/543567770579894272/ae83acadc61dcca989525d83e76a1783.webp?size=2048',
+      invite_url:
+        'https://discord.com/oauth2/authorize?client_id=543567770579894272&permissions=8&scope=bot%20applications.commands',
+      guild_count: 259000,
+    },
+    developer: {
+      usernames: ['LHCLYT'],
+    },
+    stars: 5,
+    previous_library: 'DISCORD_JS',
+    memory_improvement: {
+      from: 64000,
+      to: 9000,
+    },
+  },
+      {
+    review: `Pending...`,
+    bot: {
+      username: 'ChatGPT',
+      discriminator: '3799',
+      avatar:
+        'https://cdn.discordapp.com/avatars/1053015370115588147/07cbfe46f7dd3235e09b7021863a2a0a.webp?size=2048',
+      invite_url:
+        'https://link.turing.sh/bot',
+      guild_count: 271000,
+    },
+    developer: {
+      usernames: ['mrlol.dev', 'f1nniboy'],
+    },
+    stars: 5,
+    previous_library: 'DISCORD_JS',
+    memory_improvement: {
+      from: 22000,
+      to: 1000,
+    },
+  },
 ]
 
 export default function DiscordenoReviews() {
